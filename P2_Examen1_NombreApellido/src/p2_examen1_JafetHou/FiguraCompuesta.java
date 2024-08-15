@@ -19,5 +19,15 @@ class FiguraCompuesta extends Figura {
         }
         return area;
     }
+
+    @Override
+    public String toString() {
+        String resp = "FiguraCompuesta:";
+        for (Figura figura : figuras) {
+            resp += "\n->"+figura.toString();
+        }
+        return resp;
+    }
+    
 }
 

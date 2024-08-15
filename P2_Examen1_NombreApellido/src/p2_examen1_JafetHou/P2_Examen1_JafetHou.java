@@ -125,7 +125,7 @@ public class P2_Examen1_JafetHou {
         } else {
             System.out.println("Figuras en la lista:");
             for (int i = 0; i < figuras.size(); i++) {
-                System.out.println((i) + ") " + figuras.get(i));
+                System.out.println((i) + ") " + figuras.get(i).toString());
             }
         }
     }

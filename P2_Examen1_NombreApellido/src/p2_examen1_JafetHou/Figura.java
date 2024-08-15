@@ -9,7 +9,7 @@ abstract class Figura {
 
     @Override
     public String toString() {
-        return "Figura{" + '}';
+        return "";
     }
     
 }

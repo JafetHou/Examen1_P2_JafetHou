@@ -14,4 +14,10 @@ public class Circulo extends Figura{
     double calcularArea() {
         return 3.1416*(radio*radio);
     }
+
+    @Override
+    public String toString() {
+        return "Circulo(" + "R=" + radio + ')';
+    }
+    
 }
