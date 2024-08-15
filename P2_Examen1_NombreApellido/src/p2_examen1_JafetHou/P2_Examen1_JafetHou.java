@@ -1,17 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package p2_examen1_nombreapellido;
+
+package p2_examen1_JafetHou;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- *
- * @author claudiacortes
- */
-public class P2_Examen1_NombreApellido {
+
+public class P2_Examen1_JafetHou {
 
     /**
      * @param args the command line arguments
@@ -28,7 +22,7 @@ public class P2_Examen1_NombreApellido {
         while (bandera) {
               //NOTA: No olvide reemplazar su nombre
         String menu = "PRIMER EXAMEN PARCIAL, PROGRAMACIÓN 2\n" +
-              "reemplace con su nombre y apellido\n" +
+              "Jafet Hou\n" +
               "1. Agregar Figura\n" +
               "2. Calcular área de una figura\n" +
               "3. Listar figuras\n" +
@@ -70,7 +64,8 @@ public class P2_Examen1_NombreApellido {
             case 3 ->
                 listarFiguras();
             case 4 -> {
-                //NOTA: Reemplace su respuesta aqui
+                System.out.println("Es posible tener dos metodos con el mismo nombre debido a una caracteristica en Java llamada 'sobrecarga de métodos', esta permite"
+                        + "tener el mismo nombre pero no los mismos parametros");
             }
             case 5 -> {
                 System.out.println("\nSaliendo del programa....");
